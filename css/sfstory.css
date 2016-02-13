@@ -1,0 +1,48 @@
+/* this is what bootstrap would have done with .img-responsive
+but by putting it here all images will automatically have this */
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
+
+#background, #molly, #molly-speech, #oliver-speech {
+	position: absolute;
+}
+
+#background {
+	z-index: 0;
+}
+
+#molly {
+	z-index: 100;
+	margin-top: 215px;
+    float: right;
+
+}
+
+#molly-speech {
+	z-index: 200;
+}
+
+#oliver-speech {
+	z-index: 300;
+}
+
+.full-width {
+	width: 100%;
+	border: 0;
+}
+
+.panel {
+	position: relative;
+}
+
+.clipped {
+	overflow: hidden;
+}
+
+.no-padding {
+	padding: 0;
+}
+
