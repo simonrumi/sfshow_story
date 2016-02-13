@@ -1,0 +1,13 @@
+# ignore all the images
+*.psd
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.gif
+
+# ignore all the audio files
+*.mp3
+*.wav
+*.aiff
+*.ogg
